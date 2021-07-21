@@ -119,7 +119,7 @@ namespace _4._2._2_Rev
                         break;
                 }  b++;
 
-            } while (b < 3);
+            } while (b < 1);
         }
     }
 }
