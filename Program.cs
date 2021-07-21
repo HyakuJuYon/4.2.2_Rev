@@ -6,13 +6,13 @@ namespace _4._2._2_Rev
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Cycle While");
+            Console.WriteLine("Cycle Do");
 
             int a = 0;
 
-            while (a < 3)
+            do
 
-            { 
+            {
                 Console.WriteLine(a);
 
                 Console.WriteLine("Write down your favourite color in English using small letters >");
@@ -62,7 +62,8 @@ namespace _4._2._2_Rev
                 }
 
                 a++;
-            }
+
+            } while (a < 3);
         }
     }
 }
