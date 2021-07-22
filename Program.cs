@@ -11,24 +11,115 @@ namespace _4._2._2_Rev
 
             int a = 0;
 
-            while (true)
+            while (a < -1)
 
             {
                 Console.WriteLine(a);
 
                 Console.WriteLine("Write down your favourite color in English using small letters >");
 
-                var text = Console.ReadLine();
+                switch (Console.ReadLine())
 
-                if (text == "stop")
+                {
+                    case "red":
 
-                    Console.WriteLine("Cycle ended");
+                        Console.BackgroundColor = ConsoleColor.Red;
 
-                    break;
-            }
+                        Console.ForegroundColor = ConsoleColor.Black;
+
+                        Console.WriteLine("Your fav color is red!");
+
+                        break;
+
+                    case "green":
+
+                        Console.BackgroundColor = ConsoleColor.Green;
+
+                        Console.ForegroundColor = ConsoleColor.Black;
+
+                        Console.WriteLine("Your fav color is green!");
+
+                        break;
+
+                    case "cyan":
+
+                        Console.BackgroundColor = ConsoleColor.Cyan;
+
+                        Console.ForegroundColor = ConsoleColor.Black;
+
+                        Console.WriteLine("Your fav color is cyan!");
+
+                        break;
+
+                    default:
+
+                        Console.BackgroundColor = ConsoleColor.Yellow;
+
+                        Console.ForegroundColor = ConsoleColor.Red;
+
+                        Console.WriteLine("You didn't pick up the color!");
+
+                        break;
+                } a++;
 
         }
-       
+
+        Console.WriteLine("Cycle Do While");
+
+            int b = 0;
+
+            do
+
+            {
+                Console.WriteLine(a);
+
+                Console.WriteLine("Write down your favourite color in English using small letters >");
+
+                switch (Console.ReadLine())
+
+                {
+                    case "red":
+
+                        Console.BackgroundColor = ConsoleColor.Red;
+
+                        Console.ForegroundColor = ConsoleColor.Black;
+
+                        Console.WriteLine("Your fav color is red!");
+
+                        break;
+
+                    case "green":
+
+                        Console.BackgroundColor = ConsoleColor.Green;
+
+                        Console.ForegroundColor = ConsoleColor.Black;
+
+                        Console.WriteLine("Your fav color is green!");
+
+                        break;
+
+                    case "cyan":
+
+                        Console.BackgroundColor = ConsoleColor.Cyan;
+
+                        Console.ForegroundColor = ConsoleColor.Black;
+
+                        Console.WriteLine("Your fav color is cyan!");
+
+                        break;
+
+                    default:
+
+                        Console.BackgroundColor = ConsoleColor.Yellow;
+
+                        Console.ForegroundColor = ConsoleColor.Red;
+
+                        Console.WriteLine("You didn't pick up the color!");
+
+                        break;
+                }  b++;
+
+            } while (b < -1);
+        }
     }
 }
-
