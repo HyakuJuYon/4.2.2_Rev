@@ -11,7 +11,7 @@ namespace _4._2._2_Rev
 
             int a = 0;
 
-            while (a < 1)
+            while (a < -1)
 
             {
                 Console.WriteLine(a);
@@ -119,7 +119,7 @@ namespace _4._2._2_Rev
                         break;
                 }  b++;
 
-            } while (b < 1);
+            } while (b < -1);
         }
     }
 }
